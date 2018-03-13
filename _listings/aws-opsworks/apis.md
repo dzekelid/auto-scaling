@@ -26,7 +26,7 @@ apis:
   tags: Auto Scaling
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/auto-scaling/master/_listings/aws-opsworks/action-describeloadbasedautoscaling-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/auto-scaling/master/_listings/aws-opsworks/action-describetimebasedautoscaling-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
