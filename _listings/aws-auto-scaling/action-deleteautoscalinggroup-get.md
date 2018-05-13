@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Delete Auto Scaling Group
   version: 1.0.0
+  description: Deletes the specified Auto Scaling group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAutoScalingGroup&k=1:
+  /?Action=DeleteAutoScalingGroup:
     get:
       summary: ' Delete Auto Scaling Group '
       description: Deletes the specified Auto Scaling group
