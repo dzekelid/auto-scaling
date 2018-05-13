@@ -27,7 +27,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/auto-scaling/master/_listings/aws-opsworks/action-settimebasedautoscaling-get.md
+- name: AWS OpsWorks API Describe Load Based Auto Scaling
+  description: Describes load-based auto scaling configurations for specified layers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: http:://{host}//
+  tags: Auto Scaling
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/auto-scaling/master/_listings/aws-opsworks/action-describeloadbasedautoscaling-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+- type: x-website
+  url: https://aws.amazon.com/opsworks/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
