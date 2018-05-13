@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/auto-scaling/master/_listings/aws-auto-scaling/action-updateautoscalinggroup-get.md
-- name: AWS Auto Scaling API Describe Auto Scaling Instances
-  description: Describes one or more Auto Scaling instances.
+- name: AWS Auto Scaling API Describe Auto Scaling Notification Types
+  description: Describes the notification types that are supported by Auto Scaling.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
   baseURL: http:://{host}//
   tags: Auto Scaling
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/auto-scaling/master/_listings/aws-auto-scaling/action-describeautoscalinginstances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/auto-scaling/master/_listings/aws-auto-scaling/action-describeautoscalingnotificationtypes-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
