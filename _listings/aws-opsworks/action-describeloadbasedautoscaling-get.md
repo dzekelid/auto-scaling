@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Load Based Auto Scaling
   version: 1.0.0
+  description: Describes load-based auto scaling configurations for specified layers.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBasedAutoScaling&k=1:
+  /?Action=DescribeLoadBasedAutoScaling:
     get:
       summary: ' Describe Load Based Auto Scaling '
       description: Describes load-based auto scaling configurations for specified
