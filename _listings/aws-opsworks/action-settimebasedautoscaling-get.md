@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Set Time Based Auto Scaling
   version: 1.0.0
+  description: Specify the time-based auto scaling configuration for a specified instance.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTimeBasedAutoScaling&k=1:
+  /?Action=SetTimeBasedAutoScaling:
     get:
       summary: ' Set Time Based Auto Scaling '
       description: Specify the time-based auto scaling configuration for a specified
