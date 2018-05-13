@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/auto-scaling/master/_listings/aws-opsworks/action-settimebasedautoscaling-get.md
-- name: AWS OpsWorks API Set Load Based Auto Scaling
-  description: Specify the load-based auto scaling configuration for a specified layer.
+- name: AWS OpsWorks API Set Time Based Auto Scaling
+  description: Specify the time-based auto scaling configuration for a specified instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Auto Scaling
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/auto-scaling/master/_listings/aws-opsworks/action-setloadbasedautoscaling-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/auto-scaling/master/_listings/aws-opsworks/action-settimebasedautoscaling-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
