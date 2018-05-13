@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Auto Scaling Groups
   version: 1.0.0
+  description: Describes one or more Auto Scaling groups.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAutoScalingGroups&k=1:
+  /?Action=DescribeAutoScalingGroups:
     get:
       summary: ' Describe Auto Scaling Groups '
       description: Describes one or more Auto Scaling groups
